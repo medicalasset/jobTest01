@@ -1,0 +1,5 @@
+---
+- name: Deploy Template
+  template:
+    src: "{{ playbook_dir }}/roles/testMe/templates/osInfo"
+    dest: ~/osInfo

@@ -1,0 +1,4 @@
+cpu: "{{ ansible_facts.processor[2] }}"
+kernel: "{{ ansible_facts.kernel }}"
+memory: "{{ ansible_facts.memtotal_mb }}"
+changedDefault: "I am different!"

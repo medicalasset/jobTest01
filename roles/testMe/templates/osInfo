@@ -1,0 +1,4 @@
+CPU: {{ cpu }}
+Kernel: {{ kernel }}
+Memory: {{ memory }}
+Not Default: {{ changedDefault }}

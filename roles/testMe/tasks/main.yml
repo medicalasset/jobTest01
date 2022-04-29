@@ -1,0 +1,4 @@
+---
+# Change default variable as a task
+- include_vars: varsTestMe.yml
+- include_tasks: jobTestTemplate.yml
